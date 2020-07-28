@@ -7,7 +7,6 @@ namespace Practs
 {
     class functionoverloading
     {
-
         void area(int s)
         {
             int area1 = s * s;
