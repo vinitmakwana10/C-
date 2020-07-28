@@ -22,11 +22,9 @@ namespace FibonacciSeries
                 {
                     Console.WriteLine(c);
                 }
-
             }
             Console.WriteLine("\n\n\t \t --------------End of program-------------- ");
             Console.ReadLine();
         }
-
     }
 }
