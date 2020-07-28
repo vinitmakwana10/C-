@@ -25,7 +25,7 @@ namespace Inheritance
         }
     }
 
-    class bedroom : Room
+    public class bedroom : Room
     {
         int height;
         public bedroom(int x, int y, int z) : base(x, y)
