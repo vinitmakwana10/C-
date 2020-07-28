@@ -24,7 +24,7 @@ namespace Practs
                     {
                         for (int l = 0; l < num - i; l++)
                             Console.Write(" ");
-                        for (int j = 0; j <= 2 * i - i; j++)
+                        for (int j = 0; j <= 2 * (i - i); j++)
                         {
                             Console.Write("* ");
                         }
@@ -38,7 +38,7 @@ namespace Practs
                     {
                         for (int l = 0; l < num - i; l++)
                             Console.Write(" ");
-                        for (int j = 0; j <= 2 * i - i; j++)
+                        for (int j = 0; j <= 2 * (i - i); j++)
                         {
                             Console.Write("* ");
                         }
@@ -48,7 +48,7 @@ namespace Practs
                     {
                         for (int l = 0; l < num - i; l++)
                             Console.Write(" ");
-                        for (int j = 0; j <= 2 * i - i; j++)
+                        for (int j = 0; j <= 2 * (i - i); j++)
                         {
                             Console.Write("* ");
                         }
@@ -62,9 +62,7 @@ namespace Practs
                     {
                         for (int j = 0; j < num; j++)
                         {
-
                             Console.Write("* ");
-
                         }
                         Console.WriteLine();
                     }
