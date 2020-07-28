@@ -32,6 +32,5 @@ namespace Practs
         {
             Console.WriteLine("Grass is green");
         }
-
     }
 }
