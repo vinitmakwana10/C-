@@ -24,8 +24,7 @@ namespace Inheritance
             Console.WriteLine("Area=" + area1);
         }
     }
-
-    public class bedroom : Room
+    class bedroom : Room
     {
         int height;
         public bedroom(int x, int y, int z) : base(x, y)
