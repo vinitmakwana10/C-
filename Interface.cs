@@ -7,7 +7,6 @@ namespace Interface
 {
     interface area
     {
-
         float compute(float x, float y);
     }
     class rectangle : area
@@ -22,11 +21,10 @@ namespace Interface
         static float pie = 3.14f;
         public float compute(float x, float y)
         {
-
             return (pie * x * x);
         }
     }
-    class interfacetest
+    public class interfacetest
     {
         static void Main()
         {
